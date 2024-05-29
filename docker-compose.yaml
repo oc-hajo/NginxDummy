@@ -1,0 +1,6 @@
+version: "3"
+services:
+    nxinx-dummy:
+      build: .
+      ports:
+        - "80:80"
